@@ -1,0 +1,21 @@
+# Home Assistant runtime data
+.storage/
+.cache/
+.cloud/
+backups/
+deps/
+tts/
+.ha_run.lock
+.HA_VERSION
+
+# Logs and recorder database
+home-assistant.log*
+home-assistant_v2.db*
+
+# Secrets and local configuration
+secrets.yaml
+harmony_*.conf
+
+# Python-generated files
+__pycache__/
+*.py[cod]

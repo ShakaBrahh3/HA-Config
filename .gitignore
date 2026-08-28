@@ -19,3 +19,33 @@ harmony_*.conf
 # Python-generated files
 __pycache__/
 *.py[cod]
+
+# Added by git-ha-ppens
+tls/
+.ssh/
+*.db
+*.db-shm
+*.db-wal
+*.log
+home-assistant_v2.db
+zigbee.db
+OZW_Log.txt
+known_devices.yaml
+*.pyc
+*.pyo
+.git/
+.venv/
+custom_components/
+www/snapshots/
+zigbee2mqtt/state.json
+zigbee2mqtt/coordinator_backup.json
+.jwt_secret
+SERVICE_ACCOUNT.json
+.claude/
+ip_bans.yaml
+.exports
+.timeline
+.vacuum
+*.swp
+*.swo
+CLAUDE.md

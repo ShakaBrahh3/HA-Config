@@ -1,4 +1,3 @@
-
 # Loads default set of integrations. Do not remove.
 default_config:
 
@@ -9,13 +8,3 @@ frontend:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
-
-# Lovelace dashboards configuration added by AI Agent
-lovelace:
-  dashboards:
-    my-dashboard:
-      mode: yaml
-      title: My Dashboard
-      icon: mdi:view-dashboard
-      show_in_sidebar: true
-      filename: ui-lovelace-my-dashboard.yaml

@@ -8,3 +8,13 @@ frontend:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+lovelace:
+  mode: storage
+  dashboards:
+    kiosk-dash:
+      mode: yaml
+      title: Kiosk
+      icon: mdi:view-dashboard
+      show_in_sidebar: true
+      filename: dashboards/kiosk.yaml

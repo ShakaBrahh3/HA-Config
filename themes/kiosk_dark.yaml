@@ -1,0 +1,9 @@
+kiosk-dark:
+  primary-color: "#00d4aa"
+  primary-background-color: "#0d1117"
+  secondary-background-color: "#161b22"
+  card-background-color: "rgba(22, 27, 34, 0.9)"
+  ha-card-background: "rgba(22, 27, 34, 0.92)"
+  primary-text-color: "#e6edf3"
+  secondary-text-color: "#8b949e"
+  ha-card-border-radius: "16px"

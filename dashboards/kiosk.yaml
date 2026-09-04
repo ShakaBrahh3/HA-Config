@@ -1,0 +1,38 @@
+views:
+  - title: Test
+    path: test
+    type: panel
+    theme: kiosk-dark
+    cards:
+      - type: custom:mushroom-chips-card
+        chips:
+          - type: template
+            entity: person.chartwell
+            content: "{{ '🏠 Home' if is_state('person.chartwell', 'home') else '🚪 Away' }}"
+            icon: mdi:account
+          - type: template
+            entity: weather.forecast_home
+            content: "{{ state_attr('weather.forecast_home', 'temperature') | int }}°C"
+            icon: mdi:weather-partly-cloudy
+      - type: custom:button-card
+        name: Front Door Light
+        entity: light.front_door_light
+        tap_action:
+          action: perform-action
+          action_name: light.toggle
+          target:
+            entity_id: light.front_door_light
+        show_state: false
+        styles:
+          card:
+            - height: "60px"
+      - type: custom:mini-graph-card
+        entity: sensor.unifi_dream_machine_download_speed
+        name: Internet Speed
+        hours_to_show: 6
+      - type: custom:mushroom-template-card
+        primary: Roborock S7
+        secondary: "{{ states('sensor.roborock_s7_status') }}"
+        icon: mdi:robot-vacuum
+        tap_action:
+          action: more-info

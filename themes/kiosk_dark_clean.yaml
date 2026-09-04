@@ -1,67 +1,101 @@
+# Kiosk Dark Theme - for HP Elite x2 (1920x1280) in landscape kiosk mode
+# Install: copy to config/themes/kiosk_dark.yaml
+# Then restart HA, go to Profile -> Theme -> "Kiosk Dark"
+# Pure ASCII only - no Unicode characters
+
 kiosk-dark:
+  # ---- Base colors ----
   primary-color: "#00d4aa"
   primary-light-color: "#33e8c0"
   primary-dark-color: "#00b08a"
   accent-color: "#ff6b6b"
   accent-light-color: "#ff9a9a"
   accent-dark-color: "#e04444"
+
+  # ---- Background ----
   primary-background-color: "#0d1117"
   secondary-background-color: "#161b22"
   tertiary-background-color: "#21262d"
   card-background-color: "rgba(22, 27, 34, 0.9)"
   ha-card-background: "rgba(22, 27, 34, 0.92)"
   ha-card-border-color: "rgba(48, 54, 61, 0.5)"
+
+  # ---- Text ----
   primary-text-color: "#e6edf3"
   secondary-text-color: "#8b949e"
   text-primary-color: "#e6edf3"
   text-secondary-color: "#8b949e"
   disabled-text-color: "#484f58"
+
+  # ---- Borders / Dividers ----
   divider-color: "rgba(48, 54, 61, 0.6)"
   dark-divider-opacity: "0.4"
   light-divider-opacity: "0.15"
+
+  # ---- Shadows / Elevation ----
   shadow-elevation-1dp: "0 1px 3px rgba(0,0,0,0.4)"
   shadow-elevation-2dp: "0 2px 6px rgba(0,0,0,0.4)"
   shadow-elevation-4dp: "0 4px 12px rgba(0,0,0,0.5)"
   shadow-elevation-8dp: "0 8px 24px rgba(0,0,0,0.6)"
   shadow-elevation-16dp: "0 16px 48px rgba(0,0,0,0.7)"
+
+  # ---- State colors ----
   state-active-color: "#00d4aa"
   state-inactive-color: "#8b949e"
   state-unavailable-color: "#484f58"
   state-warning-color: "#f0883e"
   state-error-color: "#ff6b6b"
+
+  # ---- Switch / Toggle ----
   switch-checked-track-color: "#00d4aa"
   switch-checked-button-color: "#0d1117"
   switch-unchecked-track-color: "#30363d"
   switch-unchecked-button-color: "#8b949e"
+
+  # ---- Slider ----
   slider-track-color: "#30363d"
   slider-active-track-color: "#00d4aa"
   slider-container-color: "rgba(0, 212, 170, 0.15)"
+
+  # ---- Input / Select ----
   input-background-color: "#0d1117"
   input-border-color: "#30363d"
   input-text-color: "#e6edf3"
   input-disabled-background-color: "#161b22"
   input-disabled-text-color: "#484f58"
+
+  # ---- Table / List ----
   table-row-background-color: "#161b22"
   table-row-alternative-background-color: "#0d1117"
   table-header-text-color: "#8b949e"
+
+  # ---- Sidebar ----
   sidebar-background-color: "#0d1117"
   sidebar-text-color: "#e6edf3"
   sidebar-icon-color: "#8b949e"
   sidebar-selected-background-color: "#161b22"
   sidebar-selected-text-color: "#00d4aa"
   sidebar-selected-icon-color: "#00d4aa"
+
+  # ---- Header / Toolbar ----
   app-header-background-color: "rgba(13, 17, 23, 0.95)"
   app-header-text-color: "#e6edf3"
   app-header-edit-mode-background-color: "#161b22"
+
+  # ---- Cards ----
   ha-card-border-radius: "16px"
-  ha-card-box-shadow: "0 4px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.03)"
+  ha-card-box-shadow: "0 4px 20px rgba(0,0,0,0.5)"
   ha-card-header-color: "#e6edf3"
   ha-card-header-font-size: "16px"
   ha-card-header-font-weight: "600"
+
+  # ---- Mushroom specific ----
   mushroom-card-background: "rgba(22, 27, 34, 0.92)"
   mushroom-card-border-color: "rgba(48, 54, 61, 0.5)"
   mushroom-chip-background: "rgba(22, 27, 34, 0.9)"
   mushroom-chip-border-color: "rgba(48, 54, 61, 0.5)"
+
+  # ---- Custom card overrides ----
   mini-graph-card-background: "rgba(22, 27, 34, 0.9)"
   mini-graph-card-border-color: "rgba(48, 54, 61, 0.5)"
   button-card-background: "rgba(22, 27, 34, 0.92)"

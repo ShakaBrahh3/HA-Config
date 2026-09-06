@@ -1,0 +1,16 @@
+disable_clock: false
+am_pm_clock: false
+disable_welcome_message: false
+v2_mode: false
+disable_sensor_graph: false
+invert_cover: false
+hide_unavailable_entities: false
+weather_entity: weather.leeming
+alarm_entity: alarm_control_panel.homelab_server_dream_machine_se_alarm_manager
+area_sensor_device_classes:
+- temperature
+- humidity
+area_binary_sensor_device_classes: []
+area_binary_sensor_entities: []
+area_view_grouping_mode: enabled
+area_floor_grouping_mode: enabled

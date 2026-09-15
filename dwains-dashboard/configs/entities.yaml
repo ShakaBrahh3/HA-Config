@@ -1,76 +1,26 @@
-button.usw_flex_restart:
-  disabled: true
-button.usw_flex_port_2_power_cycle:
-  disabled: true
-button.usw_flex_port_3_power_cycle:
-  disabled: true
-button.usw_flex_port_4_power_cycle:
-  disabled: true
-button.usw_flex_port_5_power_cycle:
-  disabled: true
+sensor.bm_oppo_x8_pro_battery_level:
+  sort_order: 1
 remote.harmony_hub:
   sort_order: 2
 device_tracker.bm_oppo_x8_pro:
   sort_order: 3
-device_tracker.tizen:
-  sort_order: 5
-  disabled: true
 device_tracker.desktop_784mb1t:
   sort_order: 4
-device_tracker.usw_flex:
-  sort_order: 6
-  disabled: true
 media_player.mibox4:
-  sort_order: 7
+  sort_order: 5
 media_player.main_lounge_speaker:
-  sort_order: 8
+  sort_order: 6
 media_player.samsung_q60_series_75_qa75q60rawxxy:
-  sort_order: 9
-  disabled: true
-notify.bm_oppo_x8_pro:
-  sort_order: 10
-  disabled: true
-remote.samsung_q60_series_75_qa75q60rawxxy:
-  sort_order: 11
-  disabled: true
+  sort_order: 7
 select.harmony_hub_activities:
+  sort_order: 8
+sensor.dream_machine_se_storage_utilisation:
+  sort_order: 9
+vacuum.roborock_s7:
+  sort_order: 10
+sensor.centauri_carbon_current_layer:
+  sort_order: 11
+sensor.centauri_carbon_nozzle_temperature:
   sort_order: 12
-  disabled: true
-sensor.bm_oppo_x8_pro_battery_level:
-  sort_order: 1
-sensor.bm_oppo_x8_pro_battery_state:
+light.front_door_light:
   sort_order: 13
-  disabled: true
-sensor.bm_oppo_x8_pro_charger_type:
-  sort_order: 14
-  disabled: true
-sensor.usw_flex_uptime:
-  sort_order: 15
-  disabled: true
-sensor.usw_flex_uplink_mac:
-  sort_order: 16
-  disabled: true
-sensor.usw_flex_state:
-  sort_order: 17
-  disabled: true
-sensor.living_room_desktop_784mb1t_rx:
-  sort_order: 18
-  disabled: true
-sensor.living_room_tizen_rx:
-  sort_order: 19
-  disabled: true
-sensor.living_room_desktop_784mb1t_tx:
-  sort_order: 20
-  disabled: true
-sensor.living_room_tizen_tx:
-  sort_order: 21
-  disabled: true
-sensor.usw_flex_cpu_utilization:
-  sort_order: 22
-  disabled: true
-sensor.usw_flex_memory_utilization:
-  sort_order: 23
-  disabled: true
-update.usw_flex:
-  sort_order: 24
-  disabled: true

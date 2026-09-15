@@ -9,3 +9,23 @@ scene: !include scenes.yaml
 # Theme support
 frontend:
   themes: !include_dir_merge_named themes
+
+# BoM Weather
+weather:
+  - platform: bom
+
+# Waste Collection Schedule
+waste_collection_schedule:
+  rubbish:
+    friendly_name: "Rubbish Bin"
+    collection_day: Mon
+    interval: 1
+  recycling:
+    friendly_name: "Recycling Bin"
+    collection_day: Mon
+    interval: 1
+  green_waste:
+    friendly_name: "Green Waste Bin"
+    collection_day: Mon
+    interval: 2
+    first_collection_date: 2026-09-21
